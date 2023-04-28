@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="dS8qRGgY6)8ODQj3y/r=">Pan 2 an aus</variable><variable id="DGK|Y_eAE{kugX8Y@{?6">Wert</variable><variable id="vc9JR`v@ZC%ZGto_7Z-a">list</variable></variables><block type="device_forever" id="mZmdSB28flE3r-Sfo?J@" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="L=Wt(b.vmr8},$q7qW:9"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="`,fx7$n~`31-@QWWT,E."><field name="NAME">TouchPin.P2</field></block></value><statement name="DO0"><block type="device_show_leds" id="p1^VK{/XQXA{19w_8z}6"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field><next><block type="device_set_digital_pin" id="r{O;O8JL3I%:QqLz4.ou"><field name="name">DigitalPin.P0</field><value name="value"><shadow type="math_number_minmax" id="PK6i_!st8C$IEX~[`vaD"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">1</field></shadow></value><next><block type="device_pause" id="ui:7@7k@)80H)RaJDENZ"><value name="pause"><shadow type="timePicker" id="zcRx#EIo0([GfUc}p(M8"><field name="ms">30000</field></shadow></value><next><block type="device_set_digital_pin" id="g]byE[SXwc/DCg(v1c+0"><field name="name">DigitalPin.P0</field><value name="value"><shadow type="math_number_minmax" id="O]=IcJEvpfd^6^A%x[k-"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="device_pause" id="#1[0[^K?cWFjLM9pW041"><value name="pause"><shadow type="timePicker" id="B9]!s?u1ix8Fdr.fv7h3"><field name="ms">5000</field></shadow></value></block></next></block></next></block></next></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="B;zm^:O#Yq:|Gx{MOwB}"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></statement></block></statement></block></xml>
